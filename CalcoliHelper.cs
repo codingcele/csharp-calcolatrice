@@ -43,12 +43,10 @@ namespace Calcolatrice
         {
             if (num < 0)
             {
-                Console.WriteLine(-num);
                 return -num;
             }
             else
             {
-                Console.WriteLine(num);
                 return num;
             }
         }
@@ -56,12 +54,10 @@ namespace Calcolatrice
         {
             if (num < 0)
             {
-                Console.WriteLine(-num);
                 return -num;
             }
             else
             {
-                Console.WriteLine(num);
                 return num;
             }
         }
@@ -135,6 +131,29 @@ namespace Calcolatrice
             {
                 Console.WriteLine(num1);
                 return num1;
+            }
+        }
+        public static double Power(int b, int e)
+        {
+            if (b == 0 && e == b)
+            {
+                Console.WriteLine(1);
+                return 1;
+            }
+            else
+            {
+                double result = 1;
+                {
+                    for (int i = 0; i < Abs(e); ++i)
+                    {
+                        if (e < 0)
+                            result = result * 1/(double)b;
+                        else
+                            result = result * (double)b;
+                    }
+                }
+                Console.WriteLine(result);
+                return result;
             }
         }
     }

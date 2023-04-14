@@ -26,13 +26,23 @@ namespace Calcolatrice
 
             CalcoliHelper.Min(1, 3);
             CalcoliHelper.Min(5, 2);
+            CalcoliHelper.Min(1, 1);
             CalcoliHelper.Min(3.6, 1.15);
             CalcoliHelper.Min(2.8, 6.7);
+            CalcoliHelper.Min(2.8, 2.8);
 
             CalcoliHelper.Max(1, 3);
             CalcoliHelper.Max(5, 2);
+            CalcoliHelper.Max(2, 2);
             CalcoliHelper.Max(3.6, 1.15);
             CalcoliHelper.Max(2.8, 6.7);
+            CalcoliHelper.Max(6.7, 6.7);
+
+            CalcoliHelper.Power(0, 0);
+            CalcoliHelper.Power(3, 3);
+            CalcoliHelper.Power(3, -1);
+            CalcoliHelper.Power(-3, 1);
+            CalcoliHelper.Power(-3, -1);
         }
     }
 }
