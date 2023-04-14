@@ -65,8 +65,8 @@ namespace Calcolatrice
         {
             if (num1 == num2)
             {
-                Console.WriteLine(777777777);
-                return 777777777;
+                Console.WriteLine("The two numbers are equal!");
+                throw new Exception("The two numbers are equal!");
             }
             else if (num1 < num2)
             {
@@ -83,8 +83,8 @@ namespace Calcolatrice
         {
             if (num1 == num2)
             {
-                Console.WriteLine(777777777);
-                return 777777777;
+                Console.WriteLine("The two numbers are equal!");
+                throw new Exception("The two numbers are equal!");
             }
             else if (num1 < num2)
             {
@@ -101,8 +101,8 @@ namespace Calcolatrice
         {
             if (num1 == num2)
             {
-                Console.WriteLine(777777777);
-                return 777777777;
+                Console.WriteLine("The two numbers are equal!");
+                throw new Exception("The two numbers are equal!");
             }
             else if (num1 < num2)
             {
@@ -119,8 +119,8 @@ namespace Calcolatrice
         {
             if (num1 == num2)
             {
-                Console.WriteLine(777777777);
-                return 777777777;
+                Console.WriteLine("The two numbers are equal!");
+                throw new Exception("The two numbers are equal!");
             }
             else if (num1 < num2)
             {
